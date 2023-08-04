@@ -336,7 +336,7 @@ def pizarra():
         canvas1.update()
         root.after(10000, pizarra)
 
-#comprobar_conexion()
+comprobar_conexion()
 descargar_premios()
 ini = ConfigParser()
 
