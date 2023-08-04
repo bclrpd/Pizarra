@@ -330,8 +330,7 @@ def pizarra():
                    
     
         canvas1.update()
-        #root.after(180000, pizarra)
-        root.after(10000, pizarra)
+        root.after(180000, pizarra)
     except:
         print("error pizarra")
         canvas1.update()
@@ -341,6 +340,6 @@ def pizarra():
 descargar_premios()
 ini = ConfigParser()
 
-root.after(1000, pizarra)
+root.after(5000, pizarra)
 
 root.mainloop()
