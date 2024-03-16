@@ -27,8 +27,8 @@ done
 
 [ $X -eq 0 ] && echo "Version=$1" > Current.ini && rm Update.sh
 
-#sleep 1
-#systemctl reboot -i
+sleep 1
+systemctl reboot -i
 #--------------------
 
 exit
