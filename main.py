@@ -92,7 +92,7 @@ def pizarra():
         canvas1.create_rectangle(256, 14, 780, 144, fill="black", outline="")
         _Pausa_()
         time.sleep(0.5)
-        canvas1.create_image(525, 79, image=Logo)
+        canvas1.create_image(510, 79, image=Logo)
         _Pausa_()
 
         Lista = []
@@ -186,7 +186,7 @@ time.sleep(1)
 
 # Cargar imágenes y crear elementos de la interfaz
 #Logo = ImageTk.PhotoImage(file="IMG/Logo.png")
-buf0 = Image.open("IMG/Logo.png").resize((480, 130), Image.ANTIALIAS)
+buf0 = Image.open("IMG/Logo.png").resize((495, 150), Image.ANTIALIAS)
 Logo = ImageTk.PhotoImage(buf0)
 canvas1 = Canvas(width=1024, height=768, )
 canvas1.pack()
@@ -198,13 +198,13 @@ FechaHoy = FechaHoy.strftime("%d-%m-%Y")
 FechaAyer = FechaAyer.strftime("%d-%m-%Y")
 
 #Y = [14, 148, 302, 458, 611]
-Y = [14, 163, 312, 463, 611]
+Y = [14, 169, 324, 481, 635]
 
-Filas = [[36, 774],
-		 [36, 282, 528, 774],
-         [36, 282, 528, 774],
-         [36, 282, 528, 774],
-         [36, 282, 528, 774]]
+Filas = [[6, 774],
+		 [6, 262, 518, 774],
+         [6, 262, 518, 774],
+         [6, 262, 518, 774],
+         [6, 262, 518, 774]]
 
 Lots = [[ "fl tarde", 'fl noche'],
 		["la primera 12pm", "la suerte 12.30pm", "q real", "nac t"],
