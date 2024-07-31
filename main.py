@@ -49,8 +49,8 @@ def display_premios_grandes():
                 for j in i:
                     for k in Lista_G:
                         if k["Loteria"] == j:
-                            if "anguilla " in j:
-                                j = "anguilla 10am"
+                            #if "anguilla " in j:
+                             #   j = "anguilla 10am"
                             canvas1.create_rectangle(0, 0, 1024, 768, fill="white", outline="")
                             _Pausa_()
                             canvas1.create_image(512, 113, image=Images_G[j])
