@@ -6,8 +6,13 @@ done
 sleep 5
 bash UpdateChek.sh
 sleep 5
-wget https://drive.google.com/u/0/uc?id=1xoK8xsJ014ijRmCHnP4ZNjyv_NTI7thh -O Premios.ini 
-python3 main.py &
+
+if [ $(cat /etc/debian_version) == "10.4" ] ; then
+	python3 PizarraWeb.py &		
+else
+	wget https://drive.google.com/u/0/uc?id=1xoK8xsJ014ijRmCHnP4ZNjyv_NTI7thh -O Premios.ini 
+	python3 main.py &	
+fi
 xdotool mousemove 10000 10000
 
 exit
