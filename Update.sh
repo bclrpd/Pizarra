@@ -1,7 +1,7 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 URL=https://raw.githubusercontent.com/bclrpd/Pizarra/main/
-Archivo=(main.py Start.sh )
+Archivo=(main.py Start.sh PizarraWeb.py)
 Imagenes=(IMG/ANG10am.png IMG/ANG1pm.png IMG/ANG6pm.png IMG/ANG9pm.png)
 
 X=0
