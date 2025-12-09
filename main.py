@@ -208,7 +208,7 @@ Filas = [[6, 774],
 
 Lots = [[ "fl tarde", 'fl noche'],
 		["la primera 12pm", "la suerte 12.30pm", "q real", "nac t"],
-        ["la primera 8pm", "la suerte 6pm", "q pale", "nac n"],
+        ["la primera 7pm", "la suerte 6pm", "q pale", "nac n"],
         ["lotedom", "loteka", "ny dia", "ny noche"],
         ["anguilla 10am", "anguilla 1pm", "anguilla 6pm", "anguilla 9pm"]]
 
