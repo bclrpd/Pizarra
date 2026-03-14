@@ -9,7 +9,7 @@ Archivo=(UpdateChek.sh main.py Start.sh PizarraWeb.py)
 X=0
 
 for i in "${Archivo[@]}"; do
-	wget -q --method HEAD $URL$i
+	curl -s -X HEAD -i $URL$i
 	if [ $? -eq 0 ] ; then
 		curl -sSL $URL$i | tr -d '\r' >tmp/$i
 		[ $? -eq 0 ] || X=1 
