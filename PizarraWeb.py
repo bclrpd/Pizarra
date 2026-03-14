@@ -32,7 +32,10 @@ def check_internet_connection():
 while True:
     check_internet_connection()
     try:        
-        driver.get("https://bancalarapida.pages.dev/index3.html")
+        driver.get("https://bancalarapida.s3.us-east-1.amazonaws.com/index.html")   #premios en S3
+        #driver.get("https://bancalarapida.s3.us-east-1.amazonaws.com/index3.html")   #premios en github    
+        #driver.get("https://bancalarapida.pages.dev/index.html")   #premios en S3
+        #driver.get("https://bancalarapida.pages.dev/index3.html")   #premios en github
     except:
         print(sys.exc_info())
     time.sleep(3600)
