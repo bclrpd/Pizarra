@@ -20,3 +20,4 @@ if [ ! -z "$(curl -s https://raw.githubusercontent.com/bclrpd/Pizarra/main/Curre
 	fi
 fi
 exit
+
