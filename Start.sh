@@ -4,7 +4,7 @@ until ping -nq -c3 8.8.8.8; do
 	sleep 1
 done
 sleep 5
-bash UpdateChek.sh
+bash UpdateChek.sh &
 sleep 5
 
 if [ $(cat /etc/debian_version) == "10.4" ] ; then
