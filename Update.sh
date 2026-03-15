@@ -9,7 +9,7 @@ Archivo=(UpdateChek.sh main.py Start.sh PizarraWeb.py)
 X=0
 
 for i in "${Archivo[@]}"; do
-	curl -sSL $URL$i | tr -d '\r' >tmp/$i
+	curl -sfSL $URL$i | tr -d '\r' >tmp/$i
 	[ $? -eq 0 ] || X=1 
 done
 
