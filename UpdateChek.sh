@@ -13,7 +13,7 @@ if [ ! -z "$(curl -s https://raw.githubusercontent.com/bclrpd/Pizarra/main/Curre
 	
 	if [ $VERSION -lt $NEW_VERSION ] ; then
 		echo $NEW_VERSION
-		curl -sSL https://raw.githubusercontent.com/bclrpd/Pizarra/main/Update.sh | tr -d '\r' >Update.sh
+		curl -sfSL https://raw.githubusercontent.com/bclrpd/Pizarra/main/Update.sh | tr -d '\r' >Update.sh
 		if [ $? -eq 0 ] ; then
 			bash Update.sh $NEW_VERSION 
 		fi
