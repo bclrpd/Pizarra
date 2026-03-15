@@ -248,3 +248,4 @@ ini = ConfigParser()
 root.after(5000, pizarra)
 
 root.mainloop()
+#1e9e544039e5b1
