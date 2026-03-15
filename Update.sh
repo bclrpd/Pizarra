@@ -14,7 +14,7 @@ for i in "${Archivo[@]}"; do
 done
 
 for i in "${Archivo[@]}"; do
-    if [ $(stat -c%s tmp/$i) -gt 100 ] ; then
+    if grep -q "1e9e544039e5b1" tmp/$i; then
         cp -f tmp/$i /home/ventas/.Auto/Pizarra/$i
         if [ $? -eq 0 ]; then
 			rm tmp/$i
