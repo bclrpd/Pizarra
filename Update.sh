@@ -4,7 +4,7 @@ chmod +x /home/ventas/.Auto/chromedriver
 chmod +x /home/ventas/.Auto/chromium-browser
 mkdir -p tmp
 URL=https://raw.githubusercontent.com/bclrpd/Pizarra/main/
-Archivo=(UpdateChek.sh main.py Start.sh PizarraWeb.py)
+Archivo=(UpdateChek.sh main.py Start.sh PizarraWeb.py xy.sh)
 
 X=0
 
