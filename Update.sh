@@ -52,7 +52,7 @@ fi
 [ $X -eq 0 ] && echo "Version=$1" > Current.ini && rm Update.sh
 
 sleep 1
-systemctl reboot -i
+[ $X -eq 0 ] && systemctl reboot -i
 #--------------------
 exit
 #1e9e544039e5b1
